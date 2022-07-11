@@ -31,8 +31,6 @@ const TNavbar = () => {
 
   const [userInfo, setUserInfo] = useState(false);
   const data = getLoginInfo();
-  
-  console.log(process.env.REACT_APP_BASE_URL);
 
   const getUserInfo = useCallback(
     async () => {
